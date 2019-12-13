@@ -1,0 +1,49 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+
+</head>
+
+
+<body>
+
+<script>
+  var aaa = {
+    "a":"aaa",
+    "b":"bbb"
+  }
+
+document.write(aaa.a+"<br>");
+document.write(aaa.b+"<br>");
+aaa.c = "jaemin";
+document.write(aaa.c+"<br>");
+
+aaa["d"] = "arr text";
+document.write(aaa["d"]+"<br>");
+
+</script>
+
+
+
+<h2>Iterate</h2>
+<script>
+
+  for(var key in aaa){
+    document.write(key+"<br>");
+    document.write(aaa[key]+"<br>");
+
+  }
+
+
+</script>
+
+
+
+
+</body>
+
+
+</html>
