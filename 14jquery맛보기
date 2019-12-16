@@ -1,0 +1,24 @@
+------------------------html
+
+<head>
+  <title>WEB1 - Welcome</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+
+
+
+
+----------------------------color.js 한줄로 변경 가능!~
+var Links = {
+  setColor:function(color){
+    // var alist = document.querySelectorAll('a');
+    // var i = 0;
+    // while(i < alist.length){
+    //   alist[i].style.color = color;
+    //   i = i + 1;
+    // }
+    $('a').css('color', color);
+  }
+}
